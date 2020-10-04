@@ -1,0 +1,2 @@
+python GoogleAssistant.py
+pause

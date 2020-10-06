@@ -19,7 +19,7 @@ import json
 import logging
 import os
 import os.path
-#import pathlib2 as pathlib
+import pathlib2 as pathlib
 import sys
 import time
 import uuid
@@ -77,7 +77,7 @@ class SampleAssistant(object):
     def __init__(self, language_code, device_model_id, device_id,
                  conversation_stream, display,
                  channel, deadline_sec, device_handler):
-        self.language_code = language_code
+        self.language_code = "es-ES"
         self.device_model_id = device_model_id
         self.device_id = device_id
         self.conversation_stream = conversation_stream

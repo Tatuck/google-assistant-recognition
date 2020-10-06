@@ -39,7 +39,7 @@ def EmpezarReconocer():
         if resultado == "hola Google": #Se mira si el texto es igual a hola Google
                
            os.system("pushtotalk.py --project-id "+proyecto_id+" --device-model-id "+model_id) #Si se reconoce el texto llama a el programa
-
+            #pushtotalk.py Está editado para que no tenga bucle y funcione sin la necesidad de darle a ningún botón.
 
         
 EmpezarReconocer() #Empieza el bucle
